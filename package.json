@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "readline-sync": "^1.4.10"
   },
   "name": "project",
   "version": "1.0.0",
@@ -15,5 +16,6 @@
   "type": "module",
   "bin": {
   "brain-games": "bin/brain-games.js"
+  }
 }
-}
+

@@ -1,4 +1,4 @@
-.PHONY: install brain-games publish
+.PHONY: install brain-games publish make lint
 
 install:
 	npm ci
@@ -9,3 +9,5 @@ brain-games:
 publish:
 	npm publish --dry-run
 
+make lint:
+	npx exlint .
